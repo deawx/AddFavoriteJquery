@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+          <h2>
+            My Favorite Links
+          </h2>
+          <small>save your best links</small>
+        </div>
+        
+        <div id="content">
+          <ul id="favorite-links">
+            <li>
+              <a href="http://artslab.info">Artslab</a><button class="removebtn fa fa-remove"></button>
+            </li>
+            <li>
+              <a href="https://codepen.io">Codepen</a><button class="removebtn fa fa-remove"></button>
+            </li>
+            <li>
+              <a href="http://thenews.im/">The News</a><button class="removebtn fa fa-remove"></button>
+            </li>
+          </ul>
+          <div id="new-link-button">
+            <button>Add New Link</button>
+          </div>
+        </div>
+
+        <div id="add-link-form">
+          <label>Title</label><br />
+          <input id="title" placeholder="Title here" /><br />
+          <label>URL</label><br />
+          <input id="url" value="http://" /><br />
+          <button id="add">Save Link</button>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="jsmin.js"></script>
+</html>
